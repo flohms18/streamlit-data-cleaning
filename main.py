@@ -1,4 +1,4 @@
 def hello():
-    print("Hello my script works")
+    print("Hello my streamlit installed works")
 
 hello()
