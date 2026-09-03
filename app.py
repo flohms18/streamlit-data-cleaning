@@ -6,6 +6,7 @@ MyDf = pd.DataFrame({
     'Second column': [10, 20, 30,40]
 })
 
-st.write("Here's our first attempt at using data to create a table:")
-
-st.write(MyDf)
+uploaded_file = st.file_uploader("Upload a CSV file")
+if uploaded_file is not None : 
+    uploaded_csv = pd.read_csv(uploaded_file)
+    st.write(uploaded_csv)
