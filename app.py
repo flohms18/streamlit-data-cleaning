@@ -1,10 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-MyDf = pd.DataFrame({
-    'First column' : [1,2,3,4],
-    'Second column': [10, 20, 30,40]
-})
+st.set_page_config(layout="wide")
+
+
+st.title("An Atlas Project, made by F.T")
+
+st.text("This is a minimalist app to delete all duplicated or None values from a csv file ")
 
 uploaded_file = st.file_uploader("Upload a CSV file")
 if uploaded_file is not None : 
