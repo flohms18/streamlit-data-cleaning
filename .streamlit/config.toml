@@ -1,2 +1,12 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family="Jetbrains"
+url="app/static/JetbrainsMono-Regular.ttf"
+style="Normal"
+
 [theme]
 backgroundColor="#111"
+font="Jetbrains"
+
