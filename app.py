@@ -7,6 +7,7 @@ st.set_page_config(layout="wide")
 st.title("An Atlas Project, made by F.T")
 
 st.text("This is a minimalist app to delete all duplicated or None values from a csv file ")
+st.text("Tech: Python, Streamlit, Pandas")
 
 uploaded_file = st.file_uploader("Upload a CSV file")
 if uploaded_file is not None : 
