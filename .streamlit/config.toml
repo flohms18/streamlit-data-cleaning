@@ -3,11 +3,20 @@ enableStaticServing = true
 
 [[theme.fontFaces]]
 family="Jetbrains"
-url="app/static/JetbrainsMono-Regular.ttf"
-style="Normal"
+url="app/static/JetBrainsMono-Regular.ttf"
+style="normal"
+weight=400
+
+[[theme.fontFaces]]
+family="Jetbrains"
+url="app/static/JetBrainsMono-Bold.ttf"
+style="normal"
+weight=700
+
 
 [theme]
-backgroundColor="#111"
+backgroundColor="#F5F5F5"
 font="Jetbrains"
 textColor="#4c6ef5"
+dataframeHeaderBackgroundColor="#111111"
 
