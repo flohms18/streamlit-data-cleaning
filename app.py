@@ -6,7 +6,6 @@ MyDf = pd.DataFrame({
     'second column': [10, 20, 30,40]
 })
 
-def hello():
-    print(MyDf)
+st.write("Here's our first attempt at using data to create a table:")
 
-hello()
+st.write(MyDf)
